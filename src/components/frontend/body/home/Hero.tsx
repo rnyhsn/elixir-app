@@ -3,7 +3,7 @@ import { MdKeyboardArrowRight } from "react-icons/md";
 
 const Hero = () => {
   return (
-    <div className="h-screen w-screen bg-[url('/header-5.jpg')] bg-cover bg-no-repeat flex items-center">
+    <div className="h-screen w-screen flex items-center" style={{background: "url('/header-5.jpg')", backgroundSize: "100% 100%", backgroundRepeat: "no-repeat"}}>
         <div className="flex flex-col pl-28 gap-10 mt-20">
             <h1 className="text-7xl text-primary font-bold">Expert Consultants</h1>
             <p className="text-2xl tracking-wider w-[600px]">Over 10 years of experience in helping clients finding comprehensive solutions.</p>
